@@ -47,7 +47,7 @@ end
 puts
 puts
 
-puts "La partie est terminé"
+puts "La partie est terminée"
 
 puts "------------"
 
