@@ -35,13 +35,13 @@ attr_accessor :compteur
      puts "   3    ".colorize(:blue)
      print "a   #{@a1}    |".colorize(:red)
      print "   #{@a2}    |".colorize(:red)
-     puts "   #{@a3}     ".colorize(:red)
+     puts "   #{@a3}     "
      print "b   #{@b1}    |".colorize(:blue)
      print "   #{@b2}    |".colorize(:blue)
      puts "   #{@b3}     "
      print "c   #{@c1}    |".colorize(:red)
      print "   #{@c2}    |".colorize(:red)
-     print "   #{@c3}     ".colorize(:red)
+     print "   #{@c3}     "
      
   end
 

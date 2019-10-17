@@ -8,7 +8,8 @@ require "pry"
 require 'colorize'
 
 
-
+puts "Bienvenue"
+puts
 game = Game.new
 board = Board.new
 board.current_board
@@ -47,7 +48,7 @@ end
 puts
 puts
 
-puts "La partie est terminé"
+puts "La partie est terminée"
 
 puts "------------"
 
@@ -91,6 +92,16 @@ else
 	puts "C'est un match nul"
 end
 
+
+puts "Souhaitez vous rejouer ? Répondez Oui pour rejouer ou autre chose pour quitter "
+
+answer = gets.chomp.to_s
+
+  if answer == "Oui" || answer == "oui"
+    load 'app.rb'
+  else
+  abort("A la prochaine !")
+  end
 #lettre ligne
 #chiffre colonne
 
