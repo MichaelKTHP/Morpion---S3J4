@@ -6,4 +6,4 @@ Sinon j'ai simplement crée 3 classes : Player, Board, et Game qui crée 2 joueu
 Puis j'appelle les différentes def dans le app.rb pour lancer le jeu. Celui-ci fonctionne et évite les erreurs normalement.
 
 L'autre chose que je n'ai pas réussi à faire est une méthode current_player pour éviter de réécrire la même chose pour le player_1 et le player_2. 
-Je n'ai pas non plus réussi à coloriser uniquement les symboles.
+Je n'ai pas non plus réussi à colorer uniquement les symboles.
